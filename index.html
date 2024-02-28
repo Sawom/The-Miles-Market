@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <!-- bootstrap file added -->
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
     
+    <!-- header part -->
+    <section class=" container max-auto" >
+
+        <!-- part 1 -->
+        <div class="mt-2">
+            <!-- logo -->
+            <div>
+                <img src="imgs/logo.png" style="width: 120px;" alt="">
+            </div>
+            <!-- login reg button -->
+            <div>
+
+            </div>
+
+        </div>
+
+        <!-- part 2 -->
+        <div>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="#">Navbar</a>
+                    </div>
+                    
+
+                    <!-- collapse responsive button -->
+                    <!-- data-bs-target related to id -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- id for this part -->
+                    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
