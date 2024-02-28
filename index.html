@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
     <!-- bootstrap file added -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+
     <!-- header part -->
-    <section class=" container max-auto" >
-
-        <!-- part 1 -->
-        <div class="mt-2">
-            <!-- logo -->
-            <div>
-                <img src="imgs/logo.png" style="width: 120px;" alt="">
-            </div>
-            <!-- login reg button -->
-            <div>
-
-            </div>
-
-        </div>
-
-        <!-- part 2 -->
+    <section class="container max-auto">
+      <!-- part 1 -->
+      <div class="mt-2 d-flex justify-content-between">
+        <!-- logo -->
         <div>
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container-fluid">
-                    <div>
-                        <a class="navbar-brand" href="#">Navbar</a>
-                    </div>
-                    
-
-                    <!-- collapse responsive button -->
-                    <!-- data-bs-target related to id -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- id for this part -->
-                    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                        <div class="navbar-nav mx-auto">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Features</a>
-                            <a class="nav-link" href="#">Pricing</a>
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </div>
-                    </div>
-
-                </div>
-            </nav>
-
+            <a href="index.html">
+                <img src="imgs/logo.png" style="width: 120px;" alt="logo" />
+            </a>
         </div>
+        <!-- login reg button -->
+        <div class="d-flex">
+          <a class="nav-link active" href="#">Register</a>
+          <a class="nav-link active mx-3" href="#">Login</a>
+        </div>
+      </div>
 
+      <!-- part 2 -->
+      <div>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div>
+                <!-- empty -->
+            </div>
+            <!-- collapse responsive button -->
+            <!-- data-bs-target related to id -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- id for this part -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mx-auto">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" href="#">Buy Miles</a>
+                <a class="nav-link active" href="#">Sell Miles</a>
+                <a class="nav-link active" href="#">About Us</a>
+                <a class="nav-link active" href="#">Sell Credit Points</a>
+                <a class="nav-link active" href="#">Blog</a>
+                <a class="nav-link active" href="#">Sell Qantas Miles</a>
+              </div>
+            </div>
+
+          </div>
+        </nav>
+      </div>
     </section>
+    <!-- header part end -->
 
-
-
-    <script src="js/bootstrap.bundle.min.js" ></script>
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
