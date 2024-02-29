@@ -59,3 +59,13 @@
   padding: 15px;
   border-radius: 10px;
 }
+
+/* card img style */
+.imgContainer{
+  margin: auto;
+}
+
+.cardImgStyle{
+  margin-top: -40px;
+  width: 100px;
+}
