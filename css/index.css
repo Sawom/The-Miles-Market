@@ -50,3 +50,12 @@
 .star{
   color: #00B67A;
 }
+
+/* form style */
+.formWidth {
+  max-width: 400px;
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
