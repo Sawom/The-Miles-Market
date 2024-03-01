@@ -60,6 +60,12 @@
   color: white;
 }
 
+.cardIcon{
+  background-color: #0288D1; 
+  color: #D8D8D8; 
+  border-radius: 100%
+}
+
 /* form style */
 .formWidth {
   max-width: 400px;
@@ -77,4 +83,9 @@
 .cardImgStyle{
   margin-top: -40px;
   width: 100px;
+}
+
+.backimg{
+  background-image: url("imgs/man.png"); 
+  
 }
