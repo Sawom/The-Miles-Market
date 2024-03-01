@@ -47,8 +47,17 @@
     background-color: #083E9E;
 }
 
+.divWhite{
+    background-color: #FFFFFF;
+}
+
 .star{
   color: #00B67A;
+}
+
+.starStyle{
+  background-color: #00B67A; 
+  color: white;
 }
 
 /* form style */
