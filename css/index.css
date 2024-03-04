@@ -44,11 +44,11 @@
 /* navbar animation end*/
 
 .divBack{
-    background-color: #083E9E;
+  background-color: #083E9E;
 }
 
 .divWhite{
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .star{
@@ -83,11 +83,6 @@
 .cardImgStyle{
   margin-top: -40px;
   width: 100px;
-}
-
-.backimg{
-  background-image: url("imgs/man.png"); 
-  
 }
 
 /* whats app button */
