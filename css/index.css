@@ -109,3 +109,20 @@
 .my-float{
 	margin-top:16px;
 }
+/* whats app button end */
+
+.footerText{
+  color: #96a9b8;
+}
+
+.footerLinks{
+  text-decoration: none;
+  color: #96a9b8;
+}
+
+.smallDiv{
+  margin: auto; 
+  background-color: white; 
+  border-radius: 50px; 
+  padding: 10px;
+}
