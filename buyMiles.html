@@ -19,7 +19,347 @@
 
 </head>
 <body>
-    
+    <!-- navbar part -->
+    <section class="divWhite shadow" >
+      <div class="container mx-auto ">
+        <!-- part 1 -->
+        <div class="mt-2 d-flex justify-content-between">
+          <!-- logo -->
+          <div>
+            <a href="index.html">
+              <img src="imgs/logo.png" style="width: 120px" class="img-fluid" alt="logo" />
+            </a>
+          </div>
+          <!-- login reg button -->
+          <div class="d-flex">
+            <a class="nav-link active nav-link-ltr" href="register.html">Register</a>
+            <a class="nav-link active nav-link-ltr mx-3" href="login.html">Login</a>
+          </div>
+        </div>
+
+        <!-- part 2 -->
+        <div>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div>
+                <!-- empty -->
+              </div>
+              <!-- collapse responsive button -->
+              <!-- data-bs-target related to id -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- id for this part -->
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link active nav-link-ltr" href="index.html">Home</a>
+                  <a class="nav-link active nav-link-ltr" href="profile.html">Profile</a>
+                  <a class="nav-link active nav-link-ltr" href="buyMiles.html">Buy Miles</a>
+                  <a class="nav-link active nav-link-ltr" href="#">Sell Miles</a>
+                  <a class="nav-link active nav-link-ltr" href="#">About Us</a>
+                  <a class="nav-link active nav-link-ltr" href="#"
+                    >Sell Credit
+                  </a>
+                  <a class="nav-link active nav-link-ltr" href="#">Blog</a>
+                  <a class="nav-link active nav-link-ltr" href="#"
+                    >Sell Qantas
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+    </section>
+    <!-- navbar part end -->
+
+
+    <!-- banner part -->
+    <section class="divBack">
+      <br />
+      <br />
+      <div class="container max-auto mb-5">
+        <div class="row">
+          <!-- 1st column -->
+          <div class="col-12 col-lg-6 col-md-6">
+            <h1 class="text-white">Convert Your</h1>
+            <h1 class="text-white">Unused Rewards</h1>
+            <h1 class="text-white">Into Real Money</h1>
+
+            <br />
+            <p class="text-white">
+              Trade Miles Effortlessly with the Industry Leader: Cash Out or Top
+              Up for Your Next Journey!
+            </p>
+            <br />
+
+            <!-- rating -->
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #2151a8; border-radius: 50px"
+            >
+              <div class="d-flex align-items-center">
+                <span>
+                  <i
+                    class="fa-solid fa-star star p-1"
+                    style="background-color: white; border-radius: 100%"
+                  ></i>
+                </span>
+
+                <p class="text-white mx-2 mt-3">
+                  Trustpilot Rating <b class="mx-2">4.8</b>
+                </p>
+              </div>
+
+              <div class="d-flex">
+                <span>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                </span>
+              </div>
+            </div>
+            <br />
+            <br />
+          </div>
+
+          <!-- 2nd column -->
+          <div class="col-12 col-lg-6 col-md-6">
+            <div class="formWidth">
+              <br />
+              <h3>Get Paid Today</h3>
+              <p>Check How Much Your Miles Are Worth</p>
+              <br />
+              <form action="">
+                <!-- first & last name -->
+                <div class="row">
+                  <!-- first name -->
+                  <div class="form-floating col-12 mb-3 col-md-6 col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control border-2"
+                      id="floatingInput"
+                      placeholder="email"
+                      required
+                    />
+                    <label for="floatingInput" class="mx-2">First Name*</label>
+                  </div>
+                  <!-- last name -->
+                  <div class="form-floating col-12 mb-3 col-md-6 col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control border-2"
+                      id="floatingPassword"
+                      placeholder="Password"
+                      required
+                    />
+                    <label for="floatingPassword" class="mx-2"
+                      >Last Name*</label
+                    >
+                  </div>
+                </div>
+
+                <!-- email -->
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control border-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    required
+                  />
+                  <label for="floatingPassword" class="mx-2">Email*</label>
+                </div>
+
+                <!-- phone -->
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control border-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    required
+                  />
+                  <label for="floatingPassword" class="mx-2">Phone*</label>
+                </div>
+
+                <!--  amount of points -->
+                <div class="row">
+                  <!-- types -->
+                  <div class="col-12 mb-3 col-md-6 col-lg-6">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Type Of Miles Points</option>
+                      <option value="1">A</option>
+                      <option value="2">B</option>
+                      <option value="3">C</option>
+                    </select>
+                  </div>
+
+                  <!-- chose buy/sell -->
+                  <div class="col-12 mb-3 col-md-6 col-lg-6">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Chose Buy/Sell</option>
+                      <option value="1">Buy</option>
+                      <option value="2">Sell</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- amount of points -->
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control border-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    required
+                  />
+                  <label for="floatingPassword" class="mx-2"
+                    >Amount Of Points*</label
+                  >
+                </div>
+
+                <!-- button -->
+                <div class="d-grid">
+                  <button class="btn btn-primary">
+                    Get my exclusive offer
+                  </button>
+                </div>
+                <br />
+
+                <!-- logo -->
+                <div class="d-flex justify-content-center">
+                  <div class="mx-3">
+                    <i class="fa-solid fa-lock text-success"> </i> htpps://
+                  </div>
+                  <div class="mx-3">
+                    <span style="color: #002f86">
+                      <i class="fa-brands fa-paypal"></i> <b>PayPal</b>
+                    </span>
+                  </div>
+                </div>
+                <br />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        
+      </div>
+
+      <br />
+    </section>
+    <!-- banner part end -->
+
+    <!-- numbers -->
+    <section class="container mx-auto mt-5">
+        <div class="row g-4">
+          <!-- 1 -->
+          <div class="d-flex col-lg-3 col-md-6 col-12">
+            <!-- logo -->
+            <div class="mx-3">
+              <span>
+                <i
+                  class="fa-solid fa-map-location-dot text-white p-3"
+                  style="
+                    background-color: #06327e;
+                    border-radius: 100%;
+                    font-size: 25px;
+                  "
+                ></i>
+              </span>
+            </div>
+            <div class="text-black">
+              <h4>3B+</h4>
+              <p>Miles Traded</p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="d-flex col-lg-3 col-md-6 col-12">
+            <!-- logo -->
+            <div class="mx-3">
+              <span>
+                <i
+                  class="fa-solid fa-users text-white p-3"
+                  style="
+                    background-color: #06327e;
+                    border-radius: 100%;
+                    font-size: 25px;
+                  "
+                ></i>
+              </span>
+            </div>
+            <div class="text-black">
+              <h4>25K+</h4>
+              <p>Happy Customers Globally</p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="d-flex col-lg-3 col-md-6 col-12">
+            <!-- logo -->
+            <div class="mx-3">
+              <span>
+                <i
+                  class="fa-solid fa-plane-departure text-white p-3"
+                  style="
+                    background-color: #06327e;
+                    border-radius: 100%;
+                    font-size: 25px;
+                  "
+                ></i>
+              </span>
+            </div>
+            <div class="text-black">
+              <h4>20+</h4>
+              <p>Airlines Serviced</p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="d-flex col-lg-3 col-md-6 col-12">
+            <!-- logo -->
+            <div class="mx-3">
+              <span>
+                <i
+                  class="fa-solid fa-plane-departure text-white p-3"
+                  style="
+                    background-color: #06327e;
+                    border-radius: 100%;
+                    font-size: 25px;
+                  "
+                ></i>
+              </span>
+            </div>
+            <div class="text-black">
+              <h4>50K+</h4>
+              <p>Successful Transactions</p>
+            </div>
+          </div>
+        </div>
+    </section>
+        
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
