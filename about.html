@@ -18,11 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"/>
 
+    <link rel="stylesheet" href="css/animate.css" />
 
 </head>
 <body>
     <!-- navbar part -->
-    <section class="divWhite shadow" >
+    <section class="divWhite shadow wow fadeIn" >
       <div class="container mx-auto ">
         <!-- part 1 -->
         <div class="mt-2 d-flex justify-content-between">
@@ -86,7 +87,7 @@
     <section class="divBack">
         <br><br><br>
         <div class="container mx-auto">
-            <div class="text-center" > 
+            <div class="text-center  wow pulse" > 
                 <h1 class="text-white">
                 Optimizing your rewards one mile at a time
                 </h1>
@@ -105,21 +106,21 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <!-- 1 -->
-            <div class="col">
+            <div class="col wow slideInLeft">
                 <div class="card h-100">
                 <img src="imgs/imgs1.png" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <!-- 2 -->
-            <div class="col">
+            <div class="col wow bounce">
                 <div class="card h-100">
                 <img src="imgs/imgs2.png" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <!-- 3 -->
-            <div class="col">
+            <div class="col wow slideInRight">
                 <div class="card h-100">
                 <img src="imgs/imgs3.png" class="card-img-top" alt="...">
                 </div>
@@ -128,7 +129,7 @@
 
         
         <!-- numbers part-->
-        <div class=" mt-5 mb-5">
+        <div class=" mt-5 mb-5 wow swing">
             <div class="row g-4">
             <!-- 1 -->
             <div class="d-flex col-lg-3 col-md-6 col-12">
@@ -224,7 +225,7 @@
     <!-- who are we -->
     <section class="container mx-auto mb-5" >
         <!-- 1 -->
-        <div class="card mb-3" >
+        <div class="card mb-3 wow slideInLeft" >
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="imgs/wh1.png" class="img-fluid h-100 rounded-start" alt="...">
@@ -248,7 +249,7 @@
         </div>
 
         <!-- 2 -->
-        <div class="card mb-3" >
+        <div class="card mb-3 wow slideInRight" >
             <div class="row g-0">
                 <div class="col-md-8">
                 <div class="card-body">
@@ -270,7 +271,7 @@
         </div>
 
         <!-- 3 -->
-        <div class="card mb-3" >
+        <div class="card mb-3 wow slideInLeft" >
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="imgs/wh3.png" class="img-fluid h-100 rounded-start" alt="...">
@@ -294,7 +295,7 @@
         </div>
 
         <!-- 4 -->
-        <div class="card mb-3" >
+        <div class="card mb-3 wow slideInRight" >
             <div class="row g-0">
                 <div class="col-md-8">
                 <div class="card-body">
@@ -321,22 +322,22 @@
     <!-- who are we end -->
 
     <!-- trusted over -->
-    <section class="divWhite">
+    <section class="divWhite ">
       <br />
       <br />
       <div class="container mx-auto">
         <!-- heading -->
-        <span class="text-center">
+        <div class="text-center wow pulse">
           <h1><b>Trusted by over 25,000+ customers</b></h1>
           <p>
             Don't take our word for it. Here's what other people are saying
             about us...
           </p>
-        </span>
+        </div>
         <br />
 
         <!-- star -->
-        <span>
+        <div class="wow bounce">
           <span class="d-flex justify-content-center">
             <i class="fa-solid fa-star star mx-2"></i>
             <h5>Trustpilot</h5>
@@ -349,14 +350,14 @@
             </span>
           </span>
           <p class="text-center">4.9 out of 5 based on 700+ reviews</p>
-        </span>
+        </div>
         <br />
         <br />
 
         <!-- review card -->
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-3 g-3">
           <!-- 1 -->
-          <div class="col">
+          <div class="col wow slideInLeft">
             <div class="card h-100">
               <br />
               <!-- user logo and stars-->
@@ -394,7 +395,7 @@
           </div>
 
           <!-- 2 -->
-          <div class="col">
+          <div class="col wow bounce">
             <div class="card h-100">
               <br />
               <!-- user logo and stars-->
@@ -432,7 +433,7 @@
           </div>
 
           <!-- 3 -->
-          <div class="col">
+          <div class="col wow slideInRight">
             <div class="card h-100">
               <br />
               <!-- user logo and stars-->
@@ -480,8 +481,9 @@
     <!-- trusted over end -->
 
     <br><br>
+
     <!-- footer part -->
-    <section>
+    <section class="wow fadeIn">
       <!-- part 1 -->
       <div style="background-color: #0B314E;">
         <br>
@@ -581,6 +583,7 @@
     </section>
     <!-- footer part end -->
 
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
